@@ -54,8 +54,8 @@ Each group of bits corresponds to a specific field within the instruction, such 
 
 Let's break down what each range refers to:
 
-"63-60", "59-56", etc.: These ranges represent the positions of the bits within the instruction, with the most significant bit being at position 63 and the least significant bit at position 0.
-For example, in the breakdown I provided earlier:
-"59-56" corresponds to the next 4 bits.
-And so on, until "3-0", which corresponds to the last 4 bits of the instruction.
-Each range represents a portion of the instruction that may have a specific meaning depending on the instruction's opcode and encoding format. For example, in some instructions, these ranges may represent register operands, immediate values, or other control bits. The specific interpretation of each range depends on the instruction set architecture and the instruction being executed.
+"63-60", "59-56", etc.: These ranges represent the positions of the bits within the instruction, with the most significant bit being at position 63 and the least significant bit at position 0.                                                                
+For example, in the breakdown I provided earlier:                                                        
+"59-56" corresponds to the next 4 bits.                                                        
+And so on, until "3-0", which corresponds to the last 4 bits of the instruction.                                                        
+Each range represents a portion of the instruction that may have a specific meaning depending on the instruction's opcode and encoding format. For example, in some instructions, these ranges may represent register operands, immediate values, or other control bits. The specific interpretation of each range depends on the instruction set architecture and the instruction being executed.                                                                
