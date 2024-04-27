@@ -39,6 +39,8 @@ Overall, ARMv8-A represents a significant advancement in ARM architecture, provi
 | OpCode | Register A | Register B | Register C | Immediate/Data |
 |--------|------------|------------|------------|----------------|
 |  0101  |   0101     |   1100     |   0000     |  0000 0000 0001 1101 0011 1110 0100 1010 1010 0101 1100 1111 |
+
+
 OpCode: Specifies the type of operation to be performed.
 Register A, B, C: Specify the registers involved in the operation.
 Immediate/Data: Contains immediate values or data for the instruction.
