@@ -45,3 +45,17 @@ OpCode: Specifies the type of operation to be performed.
 Register A, B, C: Specify the registers involved in the operation.
 Immediate/Data: Contains immediate values or data for the instruction.
 This breakdown demonstrates how a 64-bit ARMv8-A instruction can be represented in binary and then broken down into its components using markdown tables.
+# breakdown
+
+
+In ARM assembly language, instructions are typically represented as binary values, where each group of bits within the instruction has a specific meaning. The notation "63-60", "59-56", etc., refers to the positions of these groups of bits within the binary representation of the instruction.
+
+Each group of bits corresponds to a specific field within the instruction, such as the operation code (OpCode), register operands, immediate values, or other control bits. These fields have predefined positions and lengths, which are specified by the architecture's instruction encoding.
+
+Let's break down what each range refers to:
+
+"63-60", "59-56", etc.: These ranges represent the positions of the bits within the instruction, with the most significant bit being at position 63 and the least significant bit at position 0.
+For example, in the breakdown I provided earlier:
+"59-56" corresponds to the next 4 bits.
+And so on, until "3-0", which corresponds to the last 4 bits of the instruction.
+Each range represents a portion of the instruction that may have a specific meaning depending on the instruction's opcode and encoding format. For example, in some instructions, these ranges may represent register operands, immediate values, or other control bits. The specific interpretation of each range depends on the instruction set architecture and the instruction being executed.
